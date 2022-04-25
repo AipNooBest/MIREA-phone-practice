@@ -1,10 +1,8 @@
 package ru.mirea.danilov.mireaproject;
 
 import android.os.Bundle;
-import android.view.View;
 import android.view.Menu;
 
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.navigation.NavController;
@@ -54,4 +52,15 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//        // Получаем объект фрагмента и вызываем метод onActivityResult
+//        CameraFragment fragment = (CameraFragment) getSupportFragmentManager().findFragmentById(R.id.nav_camera);
+//        if (requestCode == CameraFragment.CAMERA_REQUEST && resultCode == RESULT_OK) {
+//            assert fragment != null;
+//            fragment.applyImageView();
+//        }
+//    }
 }

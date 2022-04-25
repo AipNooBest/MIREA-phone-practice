@@ -27,4 +27,14 @@
         android:name="ru.mirea.danilov.mireaproject.ui.mediaplayer.MediaPlayerFragment"
         android:label="@string/menu_media_player"
         tools:layout="@layout/fragment_media_player" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.danilov.mireaproject.ui.camera.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/recorderFragment"
+        android:name="ru.mirea.danilov.mireaproject.ui.recorder.RecorderFragment"
+        android:label="fragment_recorder"
+        tools:layout="@layout/fragment_recorder" />
 </navigation>
