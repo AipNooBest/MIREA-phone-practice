@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.stories.SingleStoryFragment"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/storyTitleEditable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:minHeight="32dp"
+        android:popupBackground="@android:color/transparent"
+        android:text="AutoCompleteTextView" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/storyContentEditable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:minHeight="48dp"
+        android:singleLine="false"
+        android:text="MultiAutoCompleteTextView"
+        android:textAlignment="viewStart" />
+</LinearLayout>

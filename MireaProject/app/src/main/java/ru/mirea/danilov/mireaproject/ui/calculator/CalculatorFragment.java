@@ -57,8 +57,8 @@ public class CalculatorFragment extends Fragment {
         String outputString = binding.output.getText().toString();
         Log.d("TAG", outputString);
 
-        if (isOperator(tag.charAt(0))) {
-            binding.output.setText(outputString + tag);
+        if (isOperator(tag.charAt(0)) && isOperator(outputString.charAt(outputString.length() - 1))) {
+            binding.output.setText(outputString);
         }
         else if (tag.equals("=")) {
             if (isOperator(outputString.charAt(outputString.length() - 1))) {
@@ -73,7 +73,7 @@ public class CalculatorFragment extends Fragment {
             binding.output.setText(tag);
         }
         else {
-            binding.output.append(tag);
+            binding.output.setText(outputString + tag);
         }
     }
 

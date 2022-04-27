@@ -14,7 +14,7 @@
             android:title="@string/menu_calculator" />
         <item
             android:id="@+id/nav_browser"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@android:drawable/ic_menu_share"
             android:title="@string/menu_browser" />
         <item
             android:id="@+id/nav_media_player"
@@ -25,8 +25,16 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_camera" />
         <item
-            android:id="@+id/recorderFragment"
+            android:id="@+id/nav_recorder"
             android:icon="@android:drawable/ic_btn_speak_now"
             android:title="@string/menu_recorder" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/nav_stories"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_stories" />
     </group>
 </menu>

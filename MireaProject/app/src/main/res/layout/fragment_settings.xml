@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/scareElephantsSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:checked="false"
+        android:lineSpacingExtra="4sp"
+        android:padding="7dp"
+        android:showText="false"
+        android:singleLine="false"
+        android:splitTrack="false"
+        android:switchPadding="20dp"
+        android:text="Автоматически пугать всех слонов в радиусе 5 метров"
+        android:textAlignment="textStart"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/notAllowToSleepSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:checked="false"
+        android:lineSpacingExtra="4sp"
+        android:padding="7dp"
+        android:showText="false"
+        android:singleLine="false"
+        android:splitTrack="false"
+        android:switchPadding="20dp"
+        android:text="Не позволять выспаться случайному студенту"
+        android:textAlignment="textStart"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/killRandomBacterySwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:checked="false"
+        android:lineSpacingExtra="4sp"
+        android:padding="7dp"
+        android:showText="false"
+        android:singleLine="false"
+        android:splitTrack="false"
+        android:switchPadding="20dp"
+        android:text="Менять цвет одного пикселя для убийства случайной бактерии"
+        android:textAlignment="textStart"
+        android:textSize="20sp" />
+
+    <Switch
+        android:id="@+id/killEyesSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:checked="false"
+        android:lineSpacingExtra="4sp"
+        android:padding="7dp"
+        android:showText="false"
+        android:singleLine="false"
+        android:splitTrack="false"
+        android:switchPadding="20dp"
+        android:text="Сменить фон на вырвиглазный"
+        android:textAlignment="textStart"
+        android:textSize="20sp" />
+
+</LinearLayout>
