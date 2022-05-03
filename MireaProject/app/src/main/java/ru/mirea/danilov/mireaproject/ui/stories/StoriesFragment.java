@@ -29,8 +29,7 @@ public class StoriesFragment extends Fragment {
         binding.recycler.setAdapter(adapter);
 
         binding.addStoryButton.setOnClickListener(this::onClickAddStory);
-        View root = binding.getRoot();
-        return root;
+        return binding.getRoot();
     }
 
     private void setInitialStories(){

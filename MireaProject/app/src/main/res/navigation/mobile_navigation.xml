@@ -46,4 +46,9 @@
         android:name="ru.mirea.danilov.mireaproject.ui.stories.StoriesFragment"
         android:label="fragment_stories"
         tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/nav_database"
+        android:name="ru.mirea.danilov.mireaproject.ui.database.DatabaseFragment"
+        android:label="fragment_database"
+        tools:layout="@layout/fragment_database" />
 </navigation>

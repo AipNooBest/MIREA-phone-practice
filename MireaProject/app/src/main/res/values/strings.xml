@@ -52,4 +52,5 @@ Firebase.</string>
     <string name="hint_email">Email</string>
     <string name="hint_password">password</string>
     <string name="desc_firebase_lockup">Firebase</string>
+    <string name="menu_database">Database</string>
 </resources>
