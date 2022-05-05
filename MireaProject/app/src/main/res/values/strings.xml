@@ -34,8 +34,7 @@
 
     <string name="title_activity_login">Login</string>
     <string name="label_emailpassword">Email/Password Authentication</string>
-    <string name="desc_emailpassword">Use an email and password to authenticate with
-Firebase.</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
     <string name="hint_user_id">User ID</string>
     <string name="sign_in">Sign In</string>
     <string name="create_account">Create Account</string>
@@ -53,4 +52,8 @@ Firebase.</string>
     <string name="hint_password">password</string>
     <string name="desc_firebase_lockup">Firebase</string>
     <string name="menu_database">Database</string>
+    <string name="menu_maps">Maps</string>
+    <string name="unknown_error_message">Произошла неизвестная ошибка!</string>
+    <string name="remote_error_message">Произошла ошибка на стороне сервера!</string>
+    <string name="network_error_message">Нет доступа к интернету!</string>
 </resources>

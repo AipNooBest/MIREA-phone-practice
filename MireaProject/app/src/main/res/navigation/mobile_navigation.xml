@@ -51,4 +51,9 @@
         android:name="ru.mirea.danilov.mireaproject.ui.database.DatabaseFragment"
         android:label="fragment_database"
         tools:layout="@layout/fragment_database" />
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="ru.mirea.danilov.mireaproject.ui.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>
