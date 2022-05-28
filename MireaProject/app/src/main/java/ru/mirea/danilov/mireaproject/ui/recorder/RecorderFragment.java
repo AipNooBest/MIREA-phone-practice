@@ -116,7 +116,7 @@ public class RecorderFragment extends Fragment {
                 Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
             Log.d(TAG, "sd-card success");
             // выбор источника звука
-            mediaRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
+            mediaRecorder.setAudioSource(MediaRecorder.AudioSource.DEFAULT);
             // выбор формата данных
             mediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
             // выбор кодека

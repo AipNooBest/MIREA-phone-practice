@@ -30,15 +30,13 @@ public class MediaPlayerFragment extends Fragment {
     }
 
     public void onClickPlayMusic(View view) {
-        MainActivity activity = (MainActivity) getActivity();
-        assert activity != null;
+        MainActivity activity = (MainActivity) requireActivity();
         Log.d("MediaPlayerFragment", "onClickPlayMusic: " + activity.getLocalClassName());
         activity.startService(
                 new Intent(activity, PlayerService.class));
     }
     public void onClickStopMusic(View view) {
-        MainActivity activity = (MainActivity) getActivity();
-        assert activity != null;
+        MainActivity activity = (MainActivity) requireActivity();
         Log.d("MediaPlayerFragment", "onClickStopMusic: ");
         activity.stopService(
                 new Intent(activity, PlayerService.class));
